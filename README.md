@@ -13,7 +13,7 @@ The parser operates in three main stages:
 - Vectorization: Converts sentences into 300-dimensional vectors using a pruned Google News Word2Vec model.
 - Inference:
     - Keyword Method: Scans for specific SQL-related tokens (e.g., "average", "join", "sort").
-    - Method: Uses a trained LogisticRegression model to predict labels based on semantic density.
+    - ML Classifier Method: Uses a trained: Uses a trained LogisticRegression model to predict labels based on semantic density.
  
 ### Project Structure
 **Text2SQLParser:** The core class containing all logic.
