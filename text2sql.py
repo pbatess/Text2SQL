@@ -67,7 +67,7 @@ class Text2SQLParser:
     
     def evaluate_accuracy(self, prediction_function_name):
         """
-        Gives label wise accuracy of your model.
+        Gives label wise accuracy of the model.
 
         """
         correct = Counter()
